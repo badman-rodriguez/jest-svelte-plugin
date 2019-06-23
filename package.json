@@ -1,0 +1,36 @@
+{
+  "name": "jest-svelte-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badman-rodriguez/jest-svelte-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badman-rodriguez/jest-svelte-plugin/issues"
+  },
+  "homepage": "https://github.com/badman-rodriguez/jest-svelte-plugin#readme",
+  "peerDependencies": {
+    "@babel/core": "7.x",
+    "jest": "^24.x",
+    "svelte": "^3.x"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "convert-source-map": "^1.6.0",
+    "source-map": "^0.7.3",
+    "svelte": "^3.5.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0"
+  }
+}

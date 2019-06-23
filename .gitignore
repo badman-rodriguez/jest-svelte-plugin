@@ -1,0 +1,11 @@
+#OS files
+.DS_Store
+node_modules
+**/node_modules/**
+
+# Logs
+logs
+*.log
+temp-dir
+
+package-lock.json
