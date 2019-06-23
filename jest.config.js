@@ -1,10 +1,10 @@
 module.exports = {
   "roots": [
-    "./test/src"
+    "./test"
   ],
   "transform": {
     "^.+\\.js|svelte?$": "babel-jest",
-    "^.+\\.svelte?$": "svelte-jest"
+    "^.+\\.svelte?$": "./lib/svelte-jest.js"
   },
   "moduleFileExtensions": [
     "js",
